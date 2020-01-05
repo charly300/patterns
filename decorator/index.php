@@ -4,5 +4,6 @@ require 'vendor/autoload.php';
 
 use App\BasicInspection;
 use App\OilChange;
+use App\TireRotation;
 
-echo (new OilChange(new BasicInspection()))->getCost();
+echo (new TireRotation(new OilChange(new BasicInspection())))->getCost();
