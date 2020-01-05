@@ -4,20 +4,20 @@ namespace App;
 
 class EReaderAdapter implements Book
 {
-    private $kindle;
+    private $eReader;
 
-    public function __construct(EReader $kindle)
+    public function __construct(EReader $eReader)
     {
-        $this->kindle = $kindle;
+        $this->eReader = $eReader;
     }
 
     public function open()
     {
-        $this->kindle->turnOn();
+        $this->eReader->turnOn();
     }
 
     public function turnPage()
     {
-        $this->kindle->pressNextButton();
+        $this->eReader->pressNextButton();
     }
 }
