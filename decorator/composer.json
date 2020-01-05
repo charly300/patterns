@@ -1,6 +1,7 @@
 {
     "name": "a/decorator",
     "type": "project",
+    "description": "",
     "authors": [
         {
             "name": "Federico Gonzalez",
