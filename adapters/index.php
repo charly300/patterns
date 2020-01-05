@@ -3,6 +3,6 @@
 require 'vendor/autoload.php';
 
 use App\Person;
-use App\Book;
+use App\PaperBook;
 
-(new Person)->read(new Book);
+(new Person)->read(new PaperBook);
