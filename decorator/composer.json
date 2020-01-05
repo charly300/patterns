@@ -1,0 +1,16 @@
+{
+    "name": "a/decorator",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Federico Gonzalez",
+            "email": "federico1818@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
