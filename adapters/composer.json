@@ -1,0 +1,16 @@
+{
+    "name": "a/adapters",
+    "description": "",
+    "authors": [
+        {
+            "name": "Federico Gonzalez",
+            "email": "federico1818@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
