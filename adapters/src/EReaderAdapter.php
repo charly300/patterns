@@ -2,11 +2,11 @@
 
 namespace App;
 
-class KindleAdapter implements Book
+class EReaderAdapter implements Book
 {
     private $kindle;
 
-    public function __construct(Kindle $kindle)
+    public function __construct(EReader $kindle)
     {
         $this->kindle = $kindle;
     }
